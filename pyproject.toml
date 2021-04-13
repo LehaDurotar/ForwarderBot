@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "forwardertestbot"
-version = "0.1.0"
+name = "forwarderbot"
+version = "0.2.0"
 description = ""
-authors = ["LehaDurotar <hwick1396@gmail.com>"]
+authors = ["kurkl <hwick1396@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,10 +12,10 @@ aiogram = "^2.11.2"
 alembic = "^1.5.3"
 asyncpg = "^0.21.0"
 psycopg2-binary = "^2.8.6"
-gino = "^1.0.1"
 redis = "^3.5.3"
 aioredis = "^1.3.1"
 pydantic = "^1.7.3"
+SQLAlchemy = "^1.4.6"
 # Vkontakte api
 aiovk = "^4.0.0"
 # Logging, retries, task scheduler, etc
